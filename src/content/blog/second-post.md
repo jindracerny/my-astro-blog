@@ -9,6 +9,10 @@ categories: ["Horská turistika"]
 
 Toto je druhý příspěvek v blogu. Přidávám ho jako ukázku toho, jak fungují sbírky v Astro pomocí `astro:content`.
 
+Zkusím jsem vložit nějaký kód 
+
+`import this`
+
 ## Malý nadpis
 
 Obsah příspěvku může obsahovat odkazy, obrázky a další Markdown. Zde je seznam:
