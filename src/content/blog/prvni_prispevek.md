@@ -10,6 +10,6 @@ categories: ["Horská turistika", "Fotografie"]
 Dnes bylo pod nulou, ale výhled stál za to.
 
 ## Mapa trasy
-<iframe src="https://mapy.cz/s/comasofone" width="100%" height="400" frameborder="0"></iframe>
+<iframe src="https://mapy.com/s/felusopeze" width="100%" height="400" frameborder="0"></iframe>
 
 Tady můžeš pokračovat v psaní svého příběhu...
