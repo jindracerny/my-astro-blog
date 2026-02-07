@@ -1,5 +1,7 @@
 import { defineConfig } from 'astro/config';
 
+import netlify from '@astrojs/netlify';
+
 export default defineConfig({
-  // No integrations needed for @astrojs/rss
+  adapter: netlify()
 });
