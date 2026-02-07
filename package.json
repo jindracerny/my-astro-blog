@@ -1,0 +1,23 @@
+{
+  "name": "my_blog",
+  "version": "1.0.0",
+  "description": "```sh npm create astro@latest -- --template basics ```",
+  "homepage": "https://github.com/jindracerny/my-astro-blog#readme",
+  "bugs": {
+    "url": "https://github.com/jindracerny/my-astro-blog/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jindracerny/my-astro-blog.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
