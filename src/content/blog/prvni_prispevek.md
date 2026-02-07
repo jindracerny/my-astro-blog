@@ -13,3 +13,7 @@ Dnes bylo pod nulou, ale výhled stál za to.
 <iframe src="https://mapy.com/s/felusopeze" width="100%" height="400" frameborder="0"></iframe>
 
 Tady můžeš pokračovat v psaní svého příběhu...
+
+<a href="/downloads/Grafspitze.gpx" download>
+    <span>📥</span> Stáhnout GPX trasu
+</a>
