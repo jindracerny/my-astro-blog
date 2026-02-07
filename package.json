@@ -19,5 +19,9 @@
     "build": "astro build",
     "preview": "astro preview",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@astrojs/rss": "^4.0.15",
+    "astro": "^5.17.1"
   }
 }

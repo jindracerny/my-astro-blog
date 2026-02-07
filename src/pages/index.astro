@@ -110,19 +110,38 @@ const headerImage = posts.length > 0 ? posts[0].data.coverImage : null;
 			}
 
 			.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 2rem; }
-			.card { text-decoration: none; color: inherit; }
-
-			/* Úprava karet pro tmavý režim */
-			.image-placeholder { aspect-ratio: 3/2; background: #111; width: 100%; display: block; overflow: hidden; }
-			.card h2 { margin: 1rem 0 0.5rem 0; font-size: 1.1rem; font-weight: 500; color: #fff; }
-			.card p { color: #666; font-size: 0.9rem; } /* Šedý text pro datum */
-
+			.card {
+				text-decoration: none;
+				color: inherit;
+				background: #fff;
+				border-radius: 16px;
+				box-shadow: 0 4px 24px rgba(0,0,0,0.12), 0 1.5px 6px rgba(0,0,0,0.10);
+				padding: 0 0 1.5rem 0;
+				display: flex;
+				flex-direction: column;
+				transition: box-shadow 0.2s;
+			}
+			.card:hover {
+				box-shadow: 0 8px 32px rgba(0,0,0,0.18), 0 3px 12px rgba(0,0,0,0.14);
+			}
+			.image-placeholder {
+				aspect-ratio: 3/2;
+				background: #111;
+				width: 100%;
+				display: block;
+				overflow: hidden;
+				border-top-left-radius: 16px;
+				border-top-right-radius: 16px;
+			}
+			.card h2 { margin: 1rem 1.5rem 0.5rem 1.5rem; font-size: 1.1rem; font-weight: 500; color: #111; }
+			.card p { color: #666; font-size: 0.9rem; margin-left: 1.5rem; }
 			.category-badge {
 				background: #333;
 				color: #aaa;
 				padding: 0.25rem 0.75rem;
 				border-radius: 3px;
 				font-size: 0.85rem;
+				margin-left: 1.5rem;
 			}
 
 			/* Úprava menu (pokud jsi ho tam nechal) */
