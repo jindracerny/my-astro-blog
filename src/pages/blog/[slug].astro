@@ -67,6 +67,17 @@ const { Content } = await entry.render();
         <main class="content">
             <Content />
         </main>
+        <section style="margin-top:2.5rem;">
+          <div id="cusdis_thread"
+            data-host="https://cusdis.com"
+            data-app-id="1de771b3-879c-4dc1-9b97-ef856331829a"
+            data-page-id={entry.slug}
+            data-page-url={Astro.url}
+            data-page-title={entry.data.title}
+          ></div>
+          <script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
+          <noscript>Enable JavaScript to view the comments powered by Cusdis.</noscript>
+        </section>
         </div>
     </div>
 </body>
